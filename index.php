@@ -20,9 +20,9 @@
     
 <!-- header section starts -->
     <section class="header">
-     <a href="home.php" class="logo">Travel.</a>
+     <a href="index.php" class="logo">Travel.</a>
      <nav class="navbar">
-        <a href="home.php">Home</a>
+        <a href="index.php">Home</a>
         <a href="about.php">About</a>
         <a href="package.php">Package</a>
         <a href="book.php">Book</a>
@@ -83,7 +83,7 @@
 
 <div class="box-container">
     <div class="box">
-    <img src="images/flat-icons/adventure.png" alt="borked-image">
+    <img src="Images/flat-icons/adventure.png" alt="borked-image">
     <h3>adventure</h3>
 
     </div>
@@ -216,23 +216,13 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 <!-- footer section starts -->
      
     <section class="footer">
         <div class="box-container">
             <div class="box">
                 <h3>quick links</h3>
-            <a href="home.php"><i class="fas fa-angle-right"></i> Home</a>
+            <a href="index.php"><i class="fas fa-angle-right"></i> Home</a>
             <a href="about.php"><i class="fas fa-angle-right"></i> About</a>
             <a href="package.php"><i class="fas fa-angle-right"></i> Package</a>
             <a href="book.php"><i class="fas fa-angle-right"></i> Book</a>
