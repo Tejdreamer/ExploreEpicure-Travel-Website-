@@ -65,7 +65,7 @@ section {
     background-size:cover !important;
     background-position: center !important;
     padding-top:10rem;
-    padding-bottom:15rem;
+    padding-bottom:35rem;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -79,6 +79,7 @@ section {
 }
 
 .btn {
+    font-size:1.7rem;
     display: inline-block;
     margin-top:1rem;
     background: rgba(0,0,0,.6);
@@ -108,13 +109,13 @@ section {
 }
 
 .header .logo{
-    font-size:2.5rem;
+    font-size:3rem;
     color:var(--black);
     /* color:var(--white); */
 }
 
 .header .navbar a {
-    font-size:2rem;
+    font-size:2.5rem;
     margin-left:2rem;
     color:var(--black);
     /* color:var(--white); */
@@ -144,7 +145,7 @@ section {
     justify-content: center;
     background-size: cover !important;
     background-position: center !important;
-    min-height: 40rem;
+    min-height: 50rem;
 }
 
 .home .slide .content{
@@ -221,7 +222,7 @@ section {
 
 .services .box-container{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
     gap:1.5rem;
 }
 
@@ -282,7 +283,7 @@ color:var(--black);
 }
 
 .home-about .content p{
-    font-size:1.5rem;
+    font-size:2rem;
     padding:1rem 0;
     line-height:1.7;
     color:var(--black);
@@ -295,7 +296,7 @@ color:var(--black);
 }
 .home-packages .box-container{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
     gap:2rem;
 }
 
@@ -375,7 +376,7 @@ color:var(--black);
 }
 
 .home-offer .content p{
-    font-size:1.5rem;
+    font-size:2rem;
     color:var(--light-black);
     line-height: 1.7;
     justify-content: center;
@@ -412,7 +413,7 @@ color:var(--black);
 }
 
 .about .content p{
-    font-size:1.5rem;
+    font-size:2rem;
     color:var(--light-black);
     line-height:2;
     padding:1rem 0;
@@ -441,7 +442,7 @@ color:var(--black);
 
 }
 .about .content .icons-container .icons span {
-    font-size:1.2rem;
+    font-size:1.5rem;
     color:var(--light-black);
     display:block;
 }
@@ -469,14 +470,14 @@ color:var(--black);
 }
 
 .reviews .slide p{
-    font-size:1.5rem;
+    font-size:2rem;
     color:var(--light-black);
     line-height:2;
     padding:1rem 0;
 }
 
 .reviews .slide h3{
-    font-size:2rem;
+    font-size:3rem;
     color:var(--black);
 }
 
@@ -500,7 +501,7 @@ color:var(--black);
 
 .packages .box-container{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(31rem,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
     gap:2rem;
 }
 
@@ -581,8 +582,12 @@ color:var(--black);
 }
 
 .booking .book-form .flex{
-    display:flex;
+    /* display:flex;
     flex-wrap:wrap;
+    gap:2rem; */
+
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(50rem,1fr));
     gap:2rem;
 }
 
@@ -593,7 +598,7 @@ color:var(--black);
 .booking .book-form .flex .inputBox input{
     width:100%;
     padding:1.2rem 1.4rem;
-    font-size:1.6rem;
+    font-size:2rem;
     color:var(--light-black);
     text-transform: none;
     margin-top: .4rem;
@@ -611,34 +616,15 @@ color:var(--black);
 }
 
 .booking .book-form .flex .inputBox span{
-    font-size:1.7rem;
+    font-size:2.5rem;
     color:var(--light-black);
 }
 
 .booking .book-form .btn{
     margin-top: .4rem;
     border: none;
+    width:8vw;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -660,13 +646,14 @@ color:var(--black);
 
 .footer .box-container .box h3 {
     color:var(--white);
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding-bottom: 2rem;
+    text-transform: capitalize;
 }
 
 .footer .box-container .box a {
     color:var(--light-white);
-    font-size:1.5rem;
+    font-size:2.5rem;
     padding-bottom:1rem;
     display:block;
     color:var(--white)
